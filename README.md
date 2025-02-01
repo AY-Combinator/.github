@@ -1,5 +1,6 @@
 # AY Combinator Project Documentation
 ETH Global Agentic Ethereum Hackathon 
+
 Licence - This project is licensed under the MIT License.
 
 ## 1. Introduction
