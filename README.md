@@ -7,6 +7,24 @@ Licence - This project is licensed under the MIT License.
 ### 1.1 Brief Project Description
 AY Combinator is an **AI-powered Web3 startup incubator operating as a DAO**, leveraging autonomous AI agents to guide founders through the program, evaluate projects, and allocate funding through **on-chain governance and investment smart contracts**.
 
+**Target Users**
+
+- Web3 Startup Founders – Seeking structured incubation, mentorship, and quick access to capital.
+- Investors – Looking for high-quality, AI-vetted Web3 startups aligned with their investment thesis.
+- Mentors & Ecosystem Builders – Engaging in AI-assisted startup evaluations.
+
+**Problem & Solution**
+
+Problem: Traditional incubators are very costly, have limited throughput and high risk for investors. Founders lack efficient way to cover all loose ends, find product market fit and get access to capital.
+
+Solution: AY Combinator automates startup evaluation, mentorship, and investment decisions. AI Agents guide founders through structured modules, provide feedback, score progress, and allocate on-chain funding when milestones and criteria set by the DAO members are met.
+
+**AI Agent Roles**
+	•	Agent Coach – Guides founders with structured questions and ensures completion of key modules.
+	•	Agent Mentor – Provides market insights, feedback, and auto-completes assumptions.
+	•	Agent Judge – Scores startups based on structured criteria, providing objective evaluation.
+	•	Agent Investor – Analyzes startups with on-chain governance rules and deploys USDC investments from DAO funds.
+
 ### 1.2 Bounties Covered
 
 | **Bounty Name**  | **Sponsor**  | **Criteria Covered** |
