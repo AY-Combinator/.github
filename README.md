@@ -59,6 +59,57 @@ AY Combinator is an **AI-powered Web3 startup incubator operating as a DAO**, le
 
 ### 2.2 Sequence Diagrams
 
+#### Overall Project
+![image](https://github.com/user-attachments/assets/11df88e7-6358-45f4-b9ad-7fdf5cd4a9cd)
+
+```
+sequenceDiagram
+    participant LP as LP Investors
+    participant DTY as DAO Treasury
+    participant DT as DAO Team
+    participant SF as Startup Founder
+    participant AC as Agent Coach
+    participant AM as Agent Mentor
+    participant AJ as Agent Judge
+    participant AI as Agent Investor
+
+    %% Step 1: LP Investors deposit funds into DAO
+    LP->>DTY: Deposit USDC
+    DTY->>LP: Issue governance tokens
+
+    %% Step 2: DAO deducts fees and allocates ownership
+    DTY->>DT: Deduct 5% management fee
+    DTY-->>LP: Remaining 95% distributed as governance tokens
+
+    %% Step 3: Startup Founder creates a project
+    SF->>AC: Create new project
+
+    loop Module Iteration (Problem Framing, User Persona, etc.)
+        AC->>SF: Guides through module
+        SF->>AC: Provides answers
+        AC->>AM: Requests feedback & market data
+        AM->>AC: Provides insights
+        AC->>AJ: Requests scoring & critique
+        AJ->>SF: Sends score & feedback
+    end
+
+    %% Step 4: Scoring & Investment Eligibility Check
+    AJ->>DTY: Check if score >= 900/1000
+    DTY-->>AJ: Confirm eligibility
+
+    %% Step 5: Founder submits investment terms
+    SF->>AI: Submit investment terms
+    note right of SF: Investment Terms:<br/>- Valuation<br/>- Deal Size<br/>- Token Lockup Period<br/>- % Equity/Tokens Offered
+
+    AI->>DTY: Evaluate investment
+    DTY-->>AI: Approve investment
+    AI->>SF: Deploy USDC
+
+    %% Step 6: Profits Realization & Distribution
+    SF->>DTY: Returns on investment (profit realized)
+    DTY->>DT: Allocate 10% Carried Interest
+    DTY->>LP: Distribute 90% profits to LPs based on governance tokens
+```
 
 ### 2.3 Repositories
 
