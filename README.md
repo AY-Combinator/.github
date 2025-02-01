@@ -15,15 +15,16 @@ AY Combinator is an **AI-powered Web3 startup incubator operating as a DAO**, le
 
 **Problem & Solution**
 
-Problem: Traditional incubators are very costly, have limited throughput and high risk for investors. Founders lack efficient way to cover all loose ends, find product market fit and get access to capital.
+**Problem:** Traditional incubators are very costly, have limited throughput and high risk for investors. Founders lack efficient way to cover all loose ends, find product market fit and get access to capital.
 
-Solution: AY Combinator automates startup evaluation, mentorship, and investment decisions. AI Agents guide founders through structured modules, provide feedback, score progress, and allocate on-chain funding when milestones and criteria set by the DAO members are met.
+**Solution:** AY Combinator automates startup evaluation, mentorship, and investment decisions. AI Agents guide founders through structured modules, provide feedback, score progress, and allocate on-chain funding when milestones and criteria set by the DAO members are met.
 
 **AI Agent Roles**
-	•	Agent Coach – Guides founders with structured questions and ensures completion of key modules.
-	•	Agent Mentor – Provides market insights, feedback, and auto-completes assumptions.
-	•	Agent Judge – Scores startups based on structured criteria, providing objective evaluation.
-	•	Agent Investor – Analyzes startups with on-chain governance rules and deploys USDC investments from DAO funds.
+
+- Agent Coach – Guides founders with structured questions and ensures completion of key modules.
+- Agent Mentor – Provides market insights, feedback, and auto-completes assumptions.
+- Agent Judge – Scores startups based on structured criteria, providing objective evaluation.
+- Agent Investor – Analyzes startups with on-chain governance rules and deploys USDC investments from DAO funds.
 
 ### 1.2 Bounties Covered
 
