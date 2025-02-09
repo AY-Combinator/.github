@@ -123,6 +123,8 @@ sequenceDiagram
 
 ### 2.5 Bounties Description
 
+
+
 ### 2.6. How to Run the Project
 
 #### 2.6.1. Prerequisites
@@ -130,6 +132,23 @@ sequenceDiagram
 #### 2.6.2. Installation
 
 #### 2.6.3. Deploy Smart Contracts
+
+To manage investments and governance, AY Combinator has deployed smart contracts on the Base blockchain network:
+
+StartupDepositContract: Manages deposits from startups. Address: https://base-sepolia.blockscout.com/address/0xee7Ffb3A5b48c391aC171304d37DEeD9Bb3dB730
+InvestorDepositContract: Handles investor funds and issues corresponding governance tokens. Address: https://base-sepolia.blockscout.com/address/0x16Fb8E786347B6Ab1f6114BacbAfb6Ed7970C754
+GovernanceTokenContract: Manages the distribution and governance of tokens within the DAO. Address: https://base-sepolia.blockscout.com/address/0xe9d81f422215480eD02294867796163B88994C33
+MockUSDC: Mocked tokens for testing purposes. Address: https://base-sepolia.blockscout.com/address/0xA7c9B5c961B9D7bfa3588Bc3b29a609806093A3f 
+
+Testing steps:
+1. Deploy MockUSDC Contract, AYC Governance Token Contract
+2. Deploy Startup Deposit and Investor Deposit Contracts
+3. Mint yourself MockUSDC
+4. Send MockUSDC to Investor Deposit Contract & Receive in turn AYC Governance Token Contracts 
+5. Once startup founders realizes planned profits, receive amount of funds corresponding to amount of AYC Governance tokens
+
+With the initial deployment of MockUSDC Contract and Investor Deposit Contract, we are able to send mocked USDC funds to the Investor Deposit Contract. In turn we become LP Investors that receive Mocked AYC Governance Tokens (LP Tokens) from the AYC Governance Token Contract. Startups later send realized profits to the StartupDepositContract, which allocates funds accordingly—10% as carried interest and 90% to investor LPs based on governance tokens.
+
 
 #### 2.6.4. Run Backend & AI Agents
 
