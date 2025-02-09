@@ -27,16 +27,7 @@ AY Combinator is an **AI-powered Web3 startup incubator operating as a DAO**, le
 - Agent Judge – Scores startups based on structured criteria, providing objective evaluation.
 - Agent Investor – Analyzes startups with on-chain governance rules and deploys USDC investments from DAO funds.
 
-### 1.2 Bounties Covered
-
-| **Bounty Name**  | **Sponsor**  | **Criteria Covered** |
-|------------------|-------------|----------------------|
-| Bounty # 1 | TODO | TODO |
-| Bounty # 2 | TODO | TODO |
-| Bounty # 3 | TODO | TODO |
-| Bounty # 4 | TODO | TODO |
-
-### 1.3 Team Members
+### 1.2 Team Members
 
 | **Name** | **Role** | **GitHub / Twitter** |
 |----------|---------|----------------------|
@@ -46,9 +37,9 @@ AY Combinator is an **AI-powered Web3 startup incubator operating as a DAO**, le
 | Aljoša Makević | Frontend Engineer | [X profile](https://x.com/aljoha_) |
 | Petar Atanasovski | Product Manager | [X profile](https://x.com/atanasovskip) |
 
-### 1.4 Demo Video & Important links
+### 1.3 Demo Video & Important links
 
-//TODO [![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/YOUR_VIDEO_ID)
+[![Demo Video](https://drive.google.com/file/d/1WAcOW3FYmUJtDhkQ7AV2oWaY56SFfdpq/view?usp=sharing)
 
 ---
 
@@ -115,9 +106,10 @@ sequenceDiagram
 
 | **Repo** | **Description** | **Link** |
 |----------|---------------|---------|
-| TODO | TODO | [GitHub Link](https://github.com/) |
-| TODO | TODO | [GitHub Link](https://github.com/) |
-| TODO | TODO | [GitHub Link](https://github.com/) |
+| .github | TODO | [GitHub Link](https://github.com/AY-Combinator/.github) |
+| webapp | TODO | [GitHub Link](https://github.com/AY-Combinator/webapp) |
+| ai_agent | TODO | [GitHub Link](https://github.com/AY-Combinator/ai_agent) |
+| contracts | TODO | [GitHub Link](https://github.com/AY-Combinator/contracts) |
 
 ### 2.4 API Endpoints
 
